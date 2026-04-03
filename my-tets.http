@@ -1,0 +1,20 @@
+
+get {{hostname}}
+
+
+
+get http://localhost:8000/api/
+
+###
+
+post http://localhost:8000/api/
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+
+###
+get {{hostname}}/admin/category/
+Authorization: {{apikey}}

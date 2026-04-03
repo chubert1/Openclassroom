@@ -1,0 +1,10 @@
+GET http://localhost:8000/admin/category/
+
+###
+
+POST http://localhost:8000/admin/category/
+Content-Type: application/json
+
+{
+    "title": "string"
+}

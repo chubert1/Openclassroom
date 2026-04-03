@@ -1,0 +1,13 @@
+### GET REQUEST - FETCH USERS
+
+GET http://localhost:8000/admin/category/
+Accept: application/json
+
+### POST REQUEST - CREATE NEW CATEGORY
+POST http://localhost:8000/admin/category/
+Content-Type: application/json
+
+{
+    "name": "New Category",
+    "description": "Description of the new category"
+}

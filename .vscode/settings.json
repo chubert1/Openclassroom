@@ -1,0 +1,16 @@
+{
+    "rest-client.excludeHostsForProxy": [
+
+    ],
+    "rest-client.environmentVariables": {
+        "$shared": {
+            "apikey": "1234567890"
+        },
+        "Local Env": {
+          "hostname": "http://localhost:8000"  
+        },
+        "Dev Env": {
+           "hostname": "http://localhost:8000" 
+        }
+    }
+}
